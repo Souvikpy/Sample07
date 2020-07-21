@@ -20,6 +20,12 @@ from p3 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name='index'),
-    path('home',views.home,name='home'),
-    path('html_demo3',views.html_demo3,name='html_demo3'),
+    path('home/',views.home,name='home'),
+    path('html_demo3/',views.html_demo3,name='html_demo3'),
+    path('sample2/',views.sample2,name='sample2'),
+    path('sample3/',views.sample3,name='sample3'),
+    path('sample4/',views.sample4,name='sample4'),
+    path('sample5/',views.sample5,name='sample5'),
+
+   
 ]
